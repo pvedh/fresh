@@ -1,0 +1,90 @@
+.head{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.header{
+    padding: 0%;
+    background-color: rgb(204, 203, 203);
+}
+.search{
+    padding-right: 100px;
+    width: 200%;
+}
+.cardover{
+    margin-left: 130px;
+    max-width:420px;
+}
+.cat{
+    max-width: 170px;
+}
+.car{
+  background-color: rgb(206, 207, 207);
+}
+@media screen and (max-width:1205px){
+    .lg{
+        display: none;
+    }
+    .cardover{
+        margin-left: 90px;
+        max-width:400px;
+    }
+}
+@media screen and (max-width:1020px){
+    .lg2{
+        display: none;
+    }
+    .lgg{
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:1020px){
+    .lgg{
+        display: none;
+    }
+    .head{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 3px;
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:785px){
+    .lg3{
+        display: none;
+    }
+    .cardover{
+        margin-left: 40px;
+        max-width:280px;
+    }
+    .head{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+@media screen and (max-width:388px){
+    .lg4{
+        display: none;
+    }
+    .cat{
+        max-width: 120px;
+    }
+    .cardover{
+        margin-left: 5px;
+        max-width:240px;
+    }
+}
+@media screen and (max-width:700px){
+    .lg5{
+        display: none;
+    }
+    .cardover{
+        margin-left: 22px;
+        max-width:280px;
+    }
+}

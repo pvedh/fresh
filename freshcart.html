@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Cart</title>
+    <link rel="stylesheet" href="./freshcart.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center p-0 m-0 header lg4">
+        <div class="head mt-2 lg3">
+                <p>Super Value Deals - Save more with coupons</p>
+        </div>
+        <div class="dropdown head lg4">
+            <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              English (India)
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">English (U.K)</a></li>
+              <li><a class="dropdown-item" href="#">Telugu</a></li>
+              <li><a class="dropdown-item" href="#">Hindi</a></li>
+            </ul>
+          </div>
+    </header>
+    <header class="p-0 m-0 d-flex justify-content-between border-0 align-items-center">
+        <div class="head">
+        <ul class="list-inline list-unstyled align-items-center m-1">
+           <a href="https://freshcart.codescandy.com/" target="_blank" class="text-decoration-none fs-3 m-2 fw-bold text-black">🛒FreshCart</a> 
+        </ul>
+    </div>
+    <div class="head lg">
+        <ul class="list-unstyled d-flex align-items-center m-1">
+      <nav class="navbar bg-white">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 search" type="search" placeholder="Search for products..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </nav>
+      <button type="button" class="btn btn-secondary bg-white p-2 text-black m-2 fs-6" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-geo-alt"></i> Location</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+                <p><b class="fs1">Choose your Delivery Location</b><br>Enter your address and we will specify the offer you area.</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select your area</option>
+                <option value="1">KPHB --> Free delivery </option>
+                <option value="2">Bachupally --> Upto 5% off</option>
+                <option value="3">Miyapur --> Free delivery</option>
+                <option value="4">Bachupally --> Upto 5% off</option>
+                <option value="5">Miyapur --> Free delivery</option>
+              </select>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button></div>
+          </div>
+        </div>
+      </div>
+    </ul> 
+    </div>  
+    <div class="head lg4">
+        <ul class="list-unstyled d-flex align-items-center m-1">
+            <button class="btn"><i class="bi bi-heart"></i></button>
+            <button class="btn"><i class="bi bi-person"></i></button>
+            <button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Log in" data-bs-content="Log in to view your orders"><i class="bi bi-bag-check"></i></button>
+           
+        </ul>
+    </div class="m-3 mt-0 mb-0">
+    <nav class="nav">
+      <div class="dropdown lgg">
+        <button class="btn btn-outline-success all dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-border-all"></i></button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Dairy,Bread & Eggs</a></li>
+          <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+          <li><a class="dropdown-item" href="#">Bakery & Biscuits</a></li>
+          <li><a class="dropdown-item" href="#">Instant Food</a></li>
+          <li><a class="dropdown-item" href="#">Tea,Coffee & Drinks</a></li>
+          <li><a class="dropdown-item" href="#">Atta,Rice & Dal</a></li>
+        </ul>
+      </div>
+      
+        </header>
+    <div class="head m-2 lg2">
+        <nav class="nav">
+          <div class="dropdown">
+            <button class="btn btn-success all dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-border-all"></i>  All Departments</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dairy,Bread & Eggs</a></li>
+              <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+              <li><a class="dropdown-item" href="#">Bakery & Biscuits</a></li>
+              <li><a class="dropdown-item" href="#">Instant Food</a></li>
+              <li><a class="dropdown-item" href="#">Tea,Coffee & Drinks</a></li>
+              <li><a class="dropdown-item" href="#">Atta,Rice & Dal</a></li>
+            </ul>
+          </div>
+            <div class="dropdown">
+  <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Home
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Deals</a></li>
+    <li><a class="dropdown-item" href="#">Categories</a></li>
+    <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+  </ul>
+</div>
+<div class="dropdown">
+    <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Shop
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Grocery</a></li>
+      <li><a class="dropdown-item" href="#">Snacks</a></li>
+      <li><a class="dropdown-item" href="#">Dairy</a></li>
+      <li><a class="dropdown-item" href="#">Vegetables</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Stores
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Online</a></li>
+      <li><a class="dropdown-item" href="#">Offline</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Mega Menu
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Dairy,Bread & Eggs</a></li>
+      <li><a class="dropdown-item" href="#">Snacks & Munchies</a></li>
+      <li><a class="dropdown-item" href="#">Bakery & Biscuits</a></li>
+      <li><a class="dropdown-item" href="#">Instant Food</a></li>
+      <li><a class="dropdown-item" href="#">Tea,Coffee & Drinks</a></li>
+      <li><a class="dropdown-item" href="#">Atta,Rice & Dal</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Pages
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Orders Page</a></li>
+      <li><a class="dropdown-item" href="#">Cart Page</a></li>
+      <li><a class="dropdown-item" href="#">Home Page</a></li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <a class="btn m-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Account
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li><a class="dropdown-item" href="#">Orders</a></li>
+      <li><a class="dropdown-item" href="#">Get FreshCart Pro</a></li>
+    </ul>
+  </div>
+  <button class="btn">Docs</button>
+          </nav>
+    </div> 
+    <hr>  
+    <div class="card border-0 head">
+            <img src="https://transvelo.github.io/freshcart/assets/images/slide-1.jpeg" class="img d-block w-100 rounded-2" alt="...">
+      <div class="card-img-overlay align-items-center head cardover lg2">
+        <br><br class="lg"><br class="lg"><br class="lg">
+        <button class="btn btn-warning fw-bold p-1 rounded-5 mb-3">Opening Sale Discount 50%</button>
+        <h1 class="fw-bold">SuperMarket Daily</h1>
+        <h1 class="fw-bold mb-3">Fresh Grocery</h1>
+        <p>Introduced a new model for online grocery shopping and covenient home delivery.</p>
+        <button class="btn btn-dark p-2">Shop now <i class="bi bi-arrow-right"></i></button>
+      </div>
+      <div class="card-img-overlay align-items-center head cardover lgg">
+        <br class="lg3"><br class="lg"><br class="lg"><br class="lg">
+        <div class="lg5">
+          <button class="btn btn-warning fw-bold p-1 rounded-5 mb-3 fs-6">Opening Sale Discount 50%</button></div>
+        <h4 class="lg4">SuperMarket Daily</h4>
+        <h4 class="mb-3 lg4">Fresh Grocery</h4>
+        <button class="btn btn-dark p-2">Shop now <i class="bi bi-arrow-right"></i></button>
+      </div>
+      </div>
+      <br class="lg4">
+      <h2 class="m-3 head">Features Categories</h2>
+      <div class="head d-flex row row-col-lg-6 row-col-md-4 row-col-sm-3 row-col-xl-6">
+        <div class="col">
+          <div class="card align-items-center p-2 m-2" style="max-width: 14rem;">
+            <img class="cat" src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_294/NI_CATALOG/IMAGES/CIW/2024/4/22/ce6b51d4-0a5d-46c1-9f56-1a0d410c6e3f_d1e4f024-7ee2-4b7c-a12d-158f856a8aa2" class="card-img-top" alt="...">
+            <h6 class="card-text p-3">Dairy,Bread & Eggs</h6>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center p-2 m-2" style="max-width: 14rem;">
+            <img class="cat" src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_294/NI_CATALOG/IMAGES/CIW/2024/4/2/2ead57e4-00b3-4525-91b2-9eb37a4be375_eee95c8a-e736-42ed-ab86-46add6ffe374" class="card-img-top" alt="...">
+            <h6 class="card-text p-3">Snack & Munchies</h6>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card align-items-center p-2 m-2" style="max-width: 14rem;">
+              <img class="cat" src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_294/NI_CATALOG/IMAGES/CIW/2024/4/2/c1d3779d-9b01-4853-8cad-99185e39c933_a0e15a76-ea59-47e6-a98e-0bb4dfc40600" class="card-img-top" alt="...">
+              <h6 class="card-text p-3">Bakery & Biscuits</h6>
+            </div>
+          </div>
+          <div class="col">
+          <div class="card align-items-center p-2 m-2" style="max-width: 14rem;">
+            <img class="cat" src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_294/NI_CATALOG/IMAGES/CIW/2024/4/22/67be61b3-99b4-4037-823c-a2cf0155b0af_00bd4c81-9099-4868-be16-0fdeb382a8dc" class="card-img-top" alt="...">
+            <h6 class="card-text p-3">Instant Food</h6>
+          </div>
+          </div>
+          <div class="col">
+          <div class="card align-items-center p-2 m-2" style="max-width: 14rem;">
+            <img class="cat" src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_294/NI_CATALOG/IMAGES/CIW/2024/4/23/f087b141-68ed-4309-8b27-4a48e5d74b2b_2122c99a-e742-4fdd-9132-b43c370fd2b9" class="card-img-top" alt="...">
+            <h6 class="card-text p-3">Tea,Coffee and More</h6>
+          </div>
+          </div>
+          <div class="col">
+          <div class="card align-items-center p-2 m-2" style="max-width: 14rem;">
+            <img class="cat" src="https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_294/NI_CATALOG/IMAGES/CIW/2024/4/22/db6c3340-4b90-4716-947b-ae3437c04a14_f17a2585-e93f-4545-9992-e8a8e44b5ddb" class="card-img-top" alt="...">
+            <h6 class="card-text p-3">Atta,Rice & Dal</h6>
+          </div>
+          </div>
+      </div>
+      <br>
+      <br>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
